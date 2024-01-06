@@ -18,5 +18,8 @@ This project is a showcase of my skills, projects, and experiences. It is built 
 - Skillset display
 - Contact form
 
-## Responsive as well
-![image](https://github.com/Satone-Harsh/Portfolio/assets/97821650/4611649d-4966-4a67-8a51-d0478b2bb5d3)
+## Responsiveness:
+![image](https://github.com/Satone-Harsh/Portfolio/assets/97821650/209a736f-c269-4fe0-bac8-a15d55e7eb60)
+![image](https://github.com/Satone-Harsh/Portfolio/assets/97821650/9fd1bd36-e282-44a8-a9ab-3d476897bb98)
+
+
