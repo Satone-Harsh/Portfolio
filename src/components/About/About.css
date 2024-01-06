@@ -1,0 +1,64 @@
+.about{
+    padding: 0px 100px;
+}
+.tp{
+    text-align: center;
+}
+.tp>h1{
+    font-size: 60px;
+    font-weight: 300;
+    padding-bottom: 70px;
+}
+
+.cont{
+    text-align: right;
+}
+
+.exp{
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.t-head{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
+.resumee{
+    position: absolute;
+    top: 0;right: 0;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    border-bottom: 1.5px solid red;
+}
+
+.resumee:hover{
+ border: 2px solid red;
+}
+
+.lottiee{
+    height: 50px;
+    margin-left: -20px;
+}
+
+@media screen and (max-width:768px){
+    .about{
+        padding: 20px;
+    }
+
+    .resumee{
+        display: none;
+    }
+
+    .tp>h1{
+        font-size: 50px;
+    }
+    .cont{
+        text-align: left;
+    }
+}

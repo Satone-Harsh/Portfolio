@@ -1,0 +1,154 @@
+.work{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.work>h1{
+    font-size: 60px;
+    font-weight: 300;
+    padding: 60px;
+    padding-bottom: 30px;
+}
+
+.container{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 400px;
+    border-radius: 20px;
+    
+    text-align: center;
+    align-items: center;    
+    margin: 10px 20px;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.item>h3{
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.item>img{
+    height: 178.5px;
+    width: 399px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 0.5px solid lightgrey;
+    border-radius: 20px;
+    z-index: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item >p{
+    text-align: left;
+    padding: 20px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.know{
+    margin-top: -220px;
+    position: absolute;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.tech{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    padding: 70px;
+    padding-top: 40px;
+}
+
+.logo{
+    width:50px;
+}
+
+.logoa{
+    width: 90px;
+    margin-top: -35px;
+}
+
+.a-link{
+    text-decoration: none;
+    color: #023a77;
+}
+
+.redirect{
+    font-size: 15px;
+}
+
+.redirect2{
+    font-size: 22px;
+}
+
+@media screen and (max-width:768px){
+    .work {
+        padding: 20px; 
+        margin-bottom: 90px;
+    }
+
+    .work > h1 {
+        font-size: 50px; 
+        padding: 15px;
+        padding-bottom: 30px;
+    }
+
+    .container {
+        text-align: center;
+        width: 100%;
+        padding: 10px; 
+    }
+
+    .item {
+        width: 100%;
+        margin: 10px; 
+        padding: 10px; 
+    }
+
+    .item > h3 {
+        font-size: 20px; 
+    }
+
+    .item > img {
+        width: 108%;
+    }
+
+    .item > p {
+        padding: 5px; 
+        font-size: 12px; 
+    }
+
+    .tech {
+        align-items: center;
+        padding: 15px;
+        width: 90%;
+    }
+
+    .logo {
+        width: 40px; 
+    }
+
+    .logoa {
+        width: 50px;
+    }
+
+    .redirect {
+        font-size: 10px; 
+    }
+}
