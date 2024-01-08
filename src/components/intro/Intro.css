@@ -1,0 +1,107 @@
+.intro{
+    display: flex;
+    flex-direction: row;
+    height: 87vh;
+    justify-content: space-between;
+}
+.ico{
+    flex: 0.1;
+    text-align: center;
+    padding: 10px;
+}
+
+.tech{
+    padding-top: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.hero{
+    text-align: center;
+    flex: 0.6;
+    display: flex;
+    z-index: 0.2;
+    margin-top: -50px;
+    border-radius: 50%;
+}
+
+.hero > img{
+    position: absolute;
+    height: 100%;
+    margin-left: 50px;
+    border-radius: 70px;
+}
+
+.link{
+    height: 35px;
+}
+
+.techi{
+    height: 45px;
+    padding: 10px;
+}
+
+.canvas{
+    margin-left: -50px;
+    z-index: 0;
+}
+
+.name{
+    display: flex;
+    flex: 0.4;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name > h2{
+    font-size: 35px;
+}
+.name > h1{
+    font-size: 60px;
+    margin: 10px 0px;
+}
+.name > h3{
+    font-size: 30px;
+}
+.name >h3> span{
+    color: #8f1a93c8;
+}
+
+@media screen and (max-width:768px){
+    .intro{
+        flex-direction: column;
+        text-align: center;
+        height: 80vh;
+        margin-bottom: 100px;
+        margin-top: 50px;
+    }
+    .hero>img{
+        width: 300px;
+        height: 300px;
+        background-color: #ac56af;
+        border-radius: 50%;
+        position: relative;
+        margin: 0px auto;
+    }
+    .hero{
+        text-align: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+    .canvas{
+        display: none;
+    }
+
+    .name > h2{
+        font-size: 30px;
+    }
+    .name > h1{
+        font-size: 50px;
+        margin: 10px 0px;
+    }
+    .name > h3{
+        font-size: 25px;
+    }
+}
