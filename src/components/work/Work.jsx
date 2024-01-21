@@ -14,15 +14,15 @@ const Work = () => {
     <div className='work'>
         <h1 id='work'>Projects</h1>
         <div className='tech'>
-            <a href='https://react.dev/'><img src='assets/react.png' className='logo'/></a>
-            <a href='https://angular.io/'><img src='assets/angular.png' className='logo'/></a>
+            <a href='https://react.dev/'><img src='assets/react.png' alt='React' className='logo'/></a>
+            <a href='https://angular.io/'><img src='assets/angular.png' alt='Angular' className='logo'/></a>
             <a href='https://developer.android.com/'><Lottie className='logoa' animationData={and}/></a>
-            <a href='https://www.mongodb.com/'><img src='assets/mongo2.png' className='logo'/></a>
-            <a href='https://nodejs.org/en/learn/getting-started/introduction-to-nodejs'><img src='assets/node.png' className='logo'/></a>
+            <a href='https://www.mongodb.com/'><img src='assets/mongo2.png' alt='Mongo' className='logo'/></a>
+            <a href='https://nodejs.org/en/learn/getting-started/introduction-to-nodejs'><img src='assets/node.png' alt='Node.js' className='logo'/></a>
         </div>
         <div className='container'>
         <div className='item'>
-            <img src='assets/inkspire.png' alt=''/>
+            <img src='assets/inkspire.png' alt='Book review Project Harsh Satone'/>
             <h3>
             <a href='https://medium.com/@harshsatone2/ink-that-inspires-c34775fdd5f4' target="_blank" className='a-link'>
             InkSpire <FaArrowUpRightFromSquare className='redirect' />
@@ -36,7 +36,7 @@ const Work = () => {
             </p>
         </div>
         <div className='item'>
-            <img src='assets/habitCraft.png' alt=''/>
+            <img src='assets/habitCraft.png' alt='Habit Tracker Project Harsh Satone'/>
             <h3>
             <a href='https://habit-craft.vercel.app/' target="_blank" className='a-link'>
             Habit Craft <FaArrowUpRightFromSquare className='redirect' />
@@ -50,7 +50,7 @@ const Work = () => {
             </p>
         </div>
         <div className='item'>
-            <img src='assets/coral.png' alt=''/>
+            <img src='assets/coral.png' alt='Social Media Project Harsh Satone'/>
             <h3>
             <a href='https://medium.com/@harshsatone2/coral-your-social-ecosystem-09ae1493e5fa' target="_blank" className='a-link'>
             Coral <FaArrowUpRightFromSquare className='redirect' />
@@ -64,7 +64,7 @@ const Work = () => {
             </p>
         </div>
         <div className='item'>
-            <img src='assets/recipe.png' alt=''/>
+            <img src='assets/recipe.png' alt='Recipe finder Project Harsh Satone'/>
             <h3>
             <a href='https://medium.com/@harshsatone2/health-crisp-699bc039b3c5' target="_blank" className='a-link'>
             Health Crisp <FaArrowUpRightFromSquare className='redirect' />
@@ -78,7 +78,7 @@ const Work = () => {
             </p>
         </div>
         <div className='item'>
-            <img src='assets/covid.png' alt=''/>
+            <img src='assets/covid.png' alt='Covid Tracker Project Harsh Satone'/>
             <h3>
             <a href='https://polite-panda-6ff0fd.netlify.app/' target="_blank" className='a-link'>
             Covid tracker <FaArrowUpRightFromSquare className='redirect' />
@@ -92,7 +92,7 @@ const Work = () => {
             </p>
         </div>
         <div className='item'>
-            <img src='assets/uniq.png' alt=''/>
+            <img src='assets/uniq.png' alt='Fashion Show Project Harsh Satone'/>
             <h3>
             <a href='https://www.uniquefashions.in/' target="_blank" className='a-link'>
             Unique Fashions <FaArrowUpRightFromSquare className='redirect' />
@@ -106,7 +106,7 @@ const Work = () => {
             </p>
         </div>
         <div className='item'>
-            <img src='assets/freshPlanet.png' alt=''/>
+            <img src='assets/freshPlanet.png' alt='Planet conservation Project Harsh Satone'/>
             <h3>
             <a href='https://satone-harsh.github.io/freshplanet/' target="_blank" className='a-link'>
             Fresh planet <FaArrowUpRightFromSquare className='redirect' />
@@ -120,7 +120,7 @@ const Work = () => {
             </p>
         </div>
         <div className='item'>
-            <img src='assets/and2.png' alt=''/>
+            <img src='assets/and2.png' alt='Android Project Harsh Satone'/>
             <h3>
             <a href='https://medium.com/@harshsatone2/speed-solver-65b71ebb016e' target="_blank" className='a-link'>
             Speed solver <FaArrowUpRightFromSquare className='redirect' />

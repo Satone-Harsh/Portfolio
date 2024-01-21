@@ -24,7 +24,7 @@ const Intro = () => {
                 <Sph/>
             </Suspense>
         </Canvas>
-            <img src='assets/hero3.png' alt=''/>
+            <img src='assets/hero3.png' alt='Image of Harsh Satone'/>
         </div>
 
 
